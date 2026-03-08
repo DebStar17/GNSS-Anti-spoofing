@@ -25,7 +25,7 @@ We converted GNSS physics into mathematical features that prioritize the "path" 
 
 - **`c_pd` (Phase-Divergence Mismatch):** This tracks the relationship between pseudorange rate and carrier phase. In a genuine signal, these should remain in sync. We calculated it as:
 
-    $$c\_pd = |\Delta\text{Pseudorange} - (0.19 \cdot \Delta\text{Carrier\_phase})|$$
+    $\text{c pd} = |\Delta\text{Pseudorange} - (0.19 \cdot \Delta\text{Carrier phase})|$
 
     _Note: 0.19m is the L1 carrier wavelength._
 
